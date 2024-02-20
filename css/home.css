@@ -1,0 +1,113 @@
+h1 {
+    padding-top: .5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.headline a {
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding: .5rem;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+table td {
+    padding: .2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+ }
+
+table td:last-child {
+    border-right: none;
+}
+
+.sections-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Optional: Adds space between the sections */
+}
+
+section#intro div{
+    justify-content: center;
+    flex-direction: column;
+    display: inline-block;
+    width: 30rem;
+}
+
+section#werkbeurten div{
+    align-items: center;
+    flex-direction: column;
+    width: 22rem;
+    outline: 2px black solid;
+}
+section#werkbeurten h3 {
+    padding: .5rem;
+    outline: 2px black solid;
+    text-align: center;
+    font-weight: 700;
+    background-color: #4a7e01;
+}
+
+section#belangrijke_data div{
+    justify-content: center;
+    flex-direction: column;
+    display: inline-block;
+    width: 22rem;
+    outline: 2px black solid;
+}
+
+section#belangrijke_data h3 {
+    padding: .5rem;
+    outline: 2px black solid;
+    text-align: center;
+    font-weight: 700;
+    background-color: #4a7e01;
+}
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .sections-wrapper {
+        flex-direction: column;
+    }
+    section#intro div{
+        width: 100%;
+    }
+    section#werkbeurten div{
+        width: 100%;
+    }
+    section#belangrijke_data div{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sections-wrapper {
+        flex-direction: column;
+    }
+    section#intro div{
+        width: 100%;
+    }
+    section#werkbeurten div{
+        width: 100%;
+    }
+    section#belangrijke_data div{
+        width: 100%;
+    }
+}
