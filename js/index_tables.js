@@ -6,7 +6,8 @@ const werkbeurten = [
 ]
 
 const belangrijke_data = [
-    [new Date(2024, 2, 16), "Algemene Ledenvergadering"],
+    [new Date(2024, 2, 11), "Bestuursvergadering"],
+    [new Date(2024, 3, 19), "Algemene Ledenvergadering"],
 ]
 
 function template(date, title) {
